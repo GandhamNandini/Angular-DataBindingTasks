@@ -1,0 +1,5 @@
+
+<input #myIn type="text" >
+<button (click)="myIn.value">Find Me</button>
+<app-component2 [parentData]="myIn.value"></app-component2>
+<app-component3 [childData]="myIn.value"></app-component3>
