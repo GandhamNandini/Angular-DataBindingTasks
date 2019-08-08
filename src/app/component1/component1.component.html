@@ -1,0 +1,9 @@
+
+<div style="text-align:center">
+    
+     <h3> <input #myIn type="text" >
+      <button (click)="myIn.value">Find Me</button>
+    </h3>
+
+
+<app-component2 [parentData]="myIn.value"></app-component2>
